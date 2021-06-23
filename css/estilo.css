@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --cor_1: #1E1C21;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--cor_1);
+    height: 80px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.container_header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: var(--cor_1);
+}
+
+.banner {
+    background-image: url(../img/morgana-splash-art.jpg);
+    width: 100%;
+    height: 237px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container_formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.container_formulario form {
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    padding: 0 50px 50px 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_formulario form div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 575px;
+    margin: 20px 0px;
+}
+
+.container_formulario form button {
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    font-size: 19px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.containner_list {
+    color: white;
+    width: 770px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    text-align: left;
+    margin: 50px 0;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.cabeçalho_tabela {
+    border: 1px solid white;
+    background-color: #010101;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+footer {
+    background-color: #010101;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.container_footer div {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.container_footer span {
+    color: white;
+}
+
+.container_links span {
+    font-size: 18px;
+}
+
+.container_links {
+    display: flex;
+}
+
+.container_img {
+    display: flex;
+    justify-content: center;
+}
+
+.container_links a {
+    color: white;
+    text-decoration: none;
+}
+
+.container_redes {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end;
+}
+
+.redes {
+    width: 40px;
+    height: 40px;
+}
